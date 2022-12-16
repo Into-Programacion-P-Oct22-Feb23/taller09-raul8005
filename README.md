@@ -1,3 +1,5 @@
+Raul Medina
+Maria Angel Rojas
 # Taller 9 (Laboratorio)
 ## Construcción de programas usando arreglos unidimensionales
 
