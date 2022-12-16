@@ -28,11 +28,22 @@ public class Ejercicio05 {
             "Alcides"};
         String inicial;
         char inicialLetra;
+        String estudiante;
         boolean bandera = true;
         while (bandera) {
             System.out.println("Ingrese una letra");
             inicial = entrada.nextLine();
             
+            for (int i = 0; i < estudiantes.length; i++) {
+                estudiante = estudiantes[i];
+                
+                 char inicial1 = estudiantes[i].charAt(0);
+                 String inicial2 = String.valueOf(inicial1); 
+                    if(inicial2.equals(inicial)){
+                        bandera = false;
+                 }
+                    
+            }
         }
 
     }
